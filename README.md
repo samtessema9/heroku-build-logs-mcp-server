@@ -18,7 +18,7 @@ npm install
 
 ### 2. Set Required Environment Variables
 You must provide a Heroku API token for the production environment:
-- `HEROKU_AUTH_TOKEN_PRODUCTION` — for production apps (from https://api.heroku.com)
+- `HEROKU_AUTH_TOKEN_PRODUCTION` — for production apps (you can get this by running `heroku auth:token`)
 
 > **Note:** The `staging` environment is only available to internal engineers. **External users do not need to set any staging credentials or include the `environment` parameter in their requests. All your apps, including staging apps, are considered to be running in production.**
 
