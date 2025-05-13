@@ -37,7 +37,7 @@ npm run build
 
 ## Integrating with Cursor MCP
 
-Add the following entry to your `.cursor/mcp.config.json`:
+Add the following entry to your `.cursor/mcp.config.json` and restart Cursor:
 ```json
 {
   "servers": [
